@@ -3,7 +3,7 @@
 set -e
 
 : "${BLUEMIX_API_KEY:?Need to set your BLUEMIX_API_KEY}"
-: "${BLUEMIX_API_ENDPOINT:=api.ng.bluemix.net}"
+: "${BLUEMIX_API_ENDPOINT:=api.eu-de.bluemix.net}"
 
 # Logging into IBM Bluemix
 echo "Logging into IBM Bluemix"
